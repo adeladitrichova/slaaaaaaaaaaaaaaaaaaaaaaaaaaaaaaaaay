@@ -1,4 +1,5 @@
 start = 0
+player1WIN =
 pins.touch_set_mode(TouchTarget.P1, TouchTargetMode.CAPACITIVE)
 pins.touch_set_mode(TouchTarget.P2, TouchTargetMode.CAPACITIVE)
 
@@ -10,17 +11,7 @@ def on_forever():
     basic.forever(on_forever)
 
 def on_pin_pressed_p1():
-    
-    player1WIN = basic.show_number(1)
-
-
+    global player1WIN
+    if player1WIN = pin
+        basic.show_number(1)
 input.on_pin_pressed(TouchPin.P1, on_pin_pressed_p1)
-
-
-
-
-
-
-
-
-
